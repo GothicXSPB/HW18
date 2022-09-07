@@ -4,7 +4,7 @@
     {
         int[] array = new int[] { 4, -20, 3, 54, 0, -5, 18, 56 };
 
-        array = SortBuble(array);
+        array = SortBubble(array);
         WriteResult(array);
     }
 
@@ -27,7 +27,7 @@
         return array;
     }
 
-    private static int[] SortBuble(int[] array)
+    private static int[] SortBubble(int[] array)
     {
         int temp = 0;
         for (int i = 0; i < array.Length - 1; i++)
