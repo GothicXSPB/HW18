@@ -1,5 +1,4 @@
-﻿{
-    internal class Array
+﻿    internal class Array
 {
     static void Main(string[] args)
     {
@@ -54,5 +53,4 @@
             Console.Write($"{array[i]} ");
         }
     }
-}
 }
