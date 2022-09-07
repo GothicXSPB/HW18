@@ -4,7 +4,7 @@
     {
         int[] array = new int[] { 4, -20, 3, 54, 0, -5, 18, 56 };
 
-        array = SortDescending(array);
+        array = SortBuble(array);
         WriteResult(array);
     }
 
